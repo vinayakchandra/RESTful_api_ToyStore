@@ -2,7 +2,7 @@ import mysql.connector as mc
 
 
 class ConnectSql:
-    mydb = mc.connect(host="localhost", user="root", password="vinayak@786", database="REST_API")
+    mydb = mc.connect(host="localhost", user="root", password="", database="REST_API")
     myCursor = mydb.cursor()
     myResult = ""
 
